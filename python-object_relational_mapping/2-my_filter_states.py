@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Script that takes in an argument and
+displays all values in the states"""
 
 
 import sys
@@ -15,7 +17,7 @@ if __name__ == "__main__":
     )
     cursor = conn.cursor()
     sql = """ SELECT * FROM states
-        WHERE name LIKE '{}'
+        WHERE name LIKE BINARY '{}'
         ORDER BY id ASC """.format(sys.argv[4])
 
     cursor.execute(sql)
