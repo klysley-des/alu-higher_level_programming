@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Program lists all states with a name
+starting with N from the database"""
 
 
 import sys
@@ -16,9 +18,8 @@ if __name__ == "__main__":
     cursor = conn.cursor()
 
     cursor.execute("SELECT * FROM states \
-        WHERE name LIKE 'N%' \
+        WHERE name LIKE BINARY 'N%' \
         ORDER BY id ASC")
-
 
     states = cursor.fetchall()
 
