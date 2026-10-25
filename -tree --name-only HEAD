@@ -1,0 +1,11 @@
+*   [33m9e338a7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m :Merge branch 'main' of https://github.com/klysley-des/alu-higher_level_programming
+[31m|[m[32m\[m  
+[31m|[m * [33md81288c[m Fix state deletion filtering
+[31m|[m * [33m0589b88[m Fix case-sensitive state filtering
+[31m|[m * [33m06eb8d2[m Restore original filter states
+[31m|[m * [33m22ca60b[m Restore original city ORM files
+[31m|[m * [33m1efb223[m Fix city model and fetch by state
+[31m|[m * [33m2c13fd6[m Set Python files as executable
+[31m|[m * [33m4cdf556[m Fix state filtering queries
+[31m|[m * [33mcc7dd2e[m Add Python object relational mapping project
+[31m|[m * [33mc211b92[m Add Python Almost a Circle project
